@@ -8,7 +8,7 @@ public class Print5 {
         while(i<6)
         {
             System.out.println(i);
-            i+i+1;
+            i++;
         }
         System.out.println("Done");
     }
