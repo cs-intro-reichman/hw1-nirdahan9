@@ -22,8 +22,8 @@ public class TimeFormat {
 			ampm = "PM";
 		}
 		else ampm = "AM"; 
-		if(hours>=10) hoursString+=hours; 
-		else hoursString+="0"+hours;
+		hoursString+=hours; 
+		
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
         // Replace this comment with the rest of your code
 		if(minutes>=10) minutesString+=minutes;
